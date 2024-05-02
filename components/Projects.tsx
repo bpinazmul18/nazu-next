@@ -15,9 +15,9 @@ export default function Projects () {
                     </svg>
 
 
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+                    <h2 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
                         Apps I've Built
-                    </h1>
+                    </h2>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
                         I have builds some web apps using Reactjs, React-Native, next.js, react-router, redux, zustand,
                         react-redux, redux-toolkit, RTK-Query, React-Query, Vuejs, nuxt.js, vuex, bootstrap, react-bootstrap, Vuejs, nuxt.js,
