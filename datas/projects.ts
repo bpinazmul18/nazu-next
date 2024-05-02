@@ -23,7 +23,7 @@ export const projects: Projects[] = [
         description:
             'আমাদের এই ডিজিটাল কমার্স পোর্টালটি একাধারে একটি কৃষকের বাজার ও পাইকারী হাট এবং অন্যপক্ষে একটি ভোক্তা চাহিদার সমষ্টিকারী ও বিক্রেতাদের সমন্বয়কারী একটি প্ল্যাটফর্ম। এটা একটা পরিপূর্ণ বাজার ব্যবস্থার ইকোসিস্টেম যা বর্তমানের প্রতিষ্ঠিত ও প্রচলিত বাজার ব্যবস্থাকে ডিজিটাল পদ্ধতিতে সম্পাদনা করে।',
         image: '/kreta-store.png',
-        link: 'javascript:void()',
+        link: '#!',
     },
     {
         title: 'React.js redux expert',
@@ -31,7 +31,7 @@ export const projects: Projects[] = [
         description:
             'Fixed React.js Fiber application with redux store which has stooped working. Fixed React Dev Tools issue for this project. And setup store properly.',
         image: '/undraw_bug_fixing_oc7a.png',
-        link: `javascript:void()`,
+        link: `#!`,
     },
     {
         title: 'Marketplace for RacewayX Games',
@@ -47,6 +47,6 @@ export const projects: Projects[] = [
         description:
             'Convert figma to react typescipt lading page, using react, react-bootstrap, react-router, api call, axios, data visualization, form and responsive design.',
         image: '/hype-scout.gif',
-        link: `javascript:void()`,
+        link: `#!`,
     },
 ]

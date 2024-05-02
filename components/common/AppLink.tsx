@@ -5,7 +5,7 @@ type AppLinkType = {
     destination: string;
     classNames?: string;
     children: React.ReactNode
-    target?: '_blank'
+    target?: '_blank' | ''
 }
 
 export default function AppLink({ destination, classNames, children, target}: AppLinkType) {

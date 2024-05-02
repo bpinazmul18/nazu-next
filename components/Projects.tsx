@@ -16,7 +16,7 @@ export default function Projects () {
 
 
                     <h2 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-                        Apps I've Built
+                        Apps I&apos;ve Built
                     </h2>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
                         I have builds some web apps using Reactjs, React-Native, next.js, react-router, redux, zustand,
@@ -31,7 +31,8 @@ export default function Projects () {
                             destination={project.link}
                             key={project.image}
                             classNames="sm:w-1/2 w-100 p-4"
-                            target='_blank'
+                            // target='_blank'
+                            target={project.link !== '#!' ? '_blank' : ''}
                         >
                             <div className="flex relative h-full">
                                 <Image
